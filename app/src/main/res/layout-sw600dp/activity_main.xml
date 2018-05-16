@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:background="@drawable/mainbg"
+    >
+
+     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="10" 
+	        android:layout_marginTop="15dp"
+	        android:orientation="horizontal"
+	        android:gravity="center_horizontal"
+	        >
+
+        <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="53dp"
+	       android:layout_height="53dp"
+	       android:layout_weight="10"
+	       android:layout_marginLeft="15dp"
+           android:src="@drawable/applogo" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="80"
+	            android:layout_marginLeft="23dp"
+	            android:textSize="45sp" 
+            android:text="Simple Notes" 
+            android:textColor="@color/WhiteSmoke"
+            
+            />
+			
+        <ImageButton
+			android:id="@+id/addbtn"
+			android:layout_width="60dp"
+			android:layout_height="60dp"
+			android:layout_weight="5"
+			android:src="@android:drawable/ic_input_add"
+			android:contentDescription="@string/addbtn"
+          	android:background="@null"
+            />
+
+        <ImageButton
+            android:id="@+id/settingsbtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+			android:layout_weight="5"
+            android:src="@drawable/abc_ic_menu_moreoverflow_normal_holo_dark" 
+            android:background="@null"
+            android:contentDescription="@string/settingsbtn"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/noitems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/noitems"
+        android:textColor="@color/White"
+        android:visibility="invisible"
+        />
+     
+     <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="23dp"
+        android:layout_weight="90"
+        >
+    </ListView>
+    
+
+   
+</LinearLayout>

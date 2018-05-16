@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">Simple Notes</string>
+    <string name="addbtn">+</string>
+    <string name="editTextSubject">Subject</string>
+    <string name="editTextContents">contents</string>
+	<string name="cancelbtn">Cancel</string>
+	<string name="savebtn">Save</string>
+	<string name="deletebtn">Delete</string>
+	<string name="sharebtn">Share</string>
+	<string name="noitems">Tap \'+\' to add a note.</string>
+	<string name="settingsbtn">Settings</string>
+	<string name="deleteAllItems">Delete all items</string>
+	<string name="deleteAllToast">All items have been removed.</string>
+	<string name="exit">Exit</string>
+	<string name="editMenuItem">Edit</string>
+	<string name="shareMenuItem">Share</string>
+	<string name="deleteMenuItem">Delete</string>
+	<string name="deleteItemToast">Item removed.</string>
+	<string name="subjectEmptyWarning">Must enter a subject title.</string>
+	<string name="noteSavedToast">Saved.</string>
+	<string name="menu_main_more_apps">More apps</string>
+	<string name="dialog_delete_question">Delete?</string>
+	<string name="dialog_delete">"Delete"</string>
+	<string name="dialog_cancel">Cancel</string>
+	<string name="dialog_delete_all_question">"Delete All?"</string>
+	<string name="dialog_note_not_saved">Note not saved.</string>
+	<string name="dialog_dont_save">Don\'t Save</string>
+	<string name="dialog_save">Save</string>
+	
+</resources>

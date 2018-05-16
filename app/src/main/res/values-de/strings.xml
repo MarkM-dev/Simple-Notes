@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">Simple Notes</string>
+    <string name="addbtn">+</string>
+    <string name="editTextSubject">Titel</string>
+    <string name="editTextContents">Inhalt</string>
+	<string name="cancelbtn">stornieren</string>
+	<string name="savebtn">Ok</string>
+	<string name="deletebtn">löschen</string>
+	<string name="sharebtn">Aktie</string>
+	<string name="noitems">Drücken Sie + ein Element hinzuzufügen.</string>
+	<string name="settingsbtn">Einstellungen</string>
+	<string name="deleteAllItems">Alle Elemente löschen</string>
+	<string name="deleteAllToast">Alle Einzelteile wurden entfernt.</string>
+	<string name="exit">Beenden</string>
+	<string name="editMenuItem">Bearbeiten</string>
+	<string name="shareMenuItem">Aktie</string>
+	<string name="deleteMenuItem">löschen</string>
+	<string name="deleteItemToast">Artikel entfernt.</string>
+	<string name="subjectEmptyWarning">Muss einen Titel eingeben</string>
+	<string name="noteSavedToast">Artikel gespeichert.</string>
+	<string name="menu_main_more_apps">mehr Apps</string>
+	<string name="dialog_delete_question">löschen?</string>
+	<string name="dialog_delete">"löschen"</string>
+	<string name="dialog_cancel">stornieren</string>
+	<string name="dialog_delete_all_question">"Alle löschen?"</string>
+	<string name="dialog_note_not_saved">Artikel nicht gespeichert.</string>
+	<string name="dialog_dont_save">Nicht speichern</string>
+	<string name="dialog_save">Ok</string>
+	
+</resources>

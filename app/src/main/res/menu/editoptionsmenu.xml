@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <item
+        android:id="@+id/saveMenuItem"
+        android:orderInCategory="10"
+        android:showAsAction="never"
+        android:title="@string/savebtn"
+        />
+
+    
+    <item
+        android:id="@+id/cancelMenuItem"
+        android:orderInCategory="20"
+        android:showAsAction="never"
+        android:title="@string/cancelbtn"
+       />
+
+</menu>

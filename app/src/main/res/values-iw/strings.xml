@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Simple Notes</string>
+    <string name="addbtn">+</string>
+    <string name="editTextSubject">כותרת</string>
+    <string name="editTextContents">תוכן</string>
+	<string name="cancelbtn">ביטול</string>
+	<string name="savebtn">שמור</string>
+	<string name="deletebtn">מחק</string>
+	<string name="sharebtn">שתף</string>
+	<string name="noitems">לחץ \'+\' כדי להוסיף פריט.</string>
+	<string name="settingsbtn">הגדרות</string>
+	<string name="deleteAllItems">מחק את כל הפריטים</string>
+	<string name="deleteAllToast">כל הפריטים הוסרו.</string>
+	<string name="exit">יציאה</string>
+	<string name="editMenuItem">ערוך</string>
+	<string name="shareMenuItem">שתף</string>
+	<string name="deleteMenuItem">מחק</string>
+	<string name="deleteItemToast">פריט הוסר.</string>
+	<string name="subjectEmptyWarning">הכנס כותרת.</string>
+	<string name="noteSavedToast">פתק נשמר.</string>
+	<string name="menu_main_more_apps">עוד אפליקציות</string>
+	<string name="dialog_delete_question">למחוק?</string>
+	<string name="dialog_delete">"מחק"</string>
+	<string name="dialog_cancel">ביטול</string>
+	<string name="dialog_delete_all_question">"למחוק הכל?"</string>
+	<string name="dialog_note_not_saved">פתק לא נשמר</string>
+	<string name="dialog_dont_save">אל תשמור</string>
+	<string name="dialog_save">שמור</string>
+</resources>

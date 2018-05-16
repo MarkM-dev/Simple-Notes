@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/notebg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" 
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/sharebtn"
+            android:layout_width="68dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:contentDescription="@string/sharebtn"
+            android:src="@android:drawable/ic_menu_share" 
+            android:layout_weight="1"
+            android:background="@null"
+            />
+
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="96" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            >
+
+            <ImageButton
+                android:id="@+id/savebtn"
+                android:layout_width="68dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/savebtn"
+                android:src="@android:drawable/ic_menu_save" 
+                android:background="@null"
+                />
+
+            <ImageButton
+                android:id="@+id/cancelbtn"
+                android:layout_width="68dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/cancelbtn"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                android:background="@null"
+                 />
+
+            <ImageButton
+                android:id="@+id/deletebtn"
+                android:layout_width="68dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@string/deletebtn"
+                android:src="@android:drawable/ic_menu_delete" 
+                android:background="@null"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        
+        >
+
+        <EditText
+            android:id="@+id/editTextSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:ems="10"
+            android:hint="@string/editTextSubject" />
+
+        <EditText
+            android:id="@+id/editTextContents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+			android:hint="@string/editTextContents"
+			android:gravity="top"
+			/>
+    </LinearLayout>
+
+
+</LinearLayout>

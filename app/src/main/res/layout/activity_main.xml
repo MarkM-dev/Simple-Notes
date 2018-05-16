@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:background="@drawable/mainbg"
+    >
+
+     <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="10" 
+	        android:layout_marginTop="10dp"
+	        android:orientation="horizontal"
+	        android:gravity="center_horizontal"
+	        >
+
+        <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="35dp"
+	       android:layout_height="35dp"
+	       android:layout_weight="10"
+	       android:layout_marginLeft="10dp"
+           android:src="@drawable/applogo" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="80"
+	            android:layout_marginLeft="15dp"
+	            android:textSize="30sp" 
+            android:text="Simple Notes" 
+            android:textColor="@color/WhiteSmoke"
+            
+            />
+			
+        <ImageButton
+			android:id="@+id/addbtn"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_weight="5"
+			android:src="@android:drawable/ic_input_add"
+			android:contentDescription="@string/addbtn"
+          	android:background="@null"
+            />
+
+        <ImageButton
+			android:id="@+id/settingsbtn"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_marginRight="10dp"
+			android:layout_weight="5"
+			android:src="@drawable/abc_ic_menu_moreoverflow_normal_holo_dark" 
+			android:background="@null"
+			android:contentDescription="@string/settingsbtn"
+		    />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/noitems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/noitems"
+        android:textColor="@color/White"
+        android:visibility="invisible"
+        />
+     
+     <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="15dp"
+        android:layout_weight="90"
+        >
+    </ListView>
+    
+      <LinearLayout 
+          android:id="@+id/adlayout"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:orientation="horizontal"
+         >
+   		 <com.google.android.gms.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="ca-app-pub-7088636357536669/6456690639"
+                         ads:adSize="BANNER"/>
+
+   		 <ImageButton
+   		     android:id="@+id/Main_adCloseBtn"
+   		     android:layout_width="20dp"
+   		     android:layout_height="20dp"
+   		     android:src="@drawable/abc_ic_clear"
+   		     android:background="#000" />
+   		 
+     </LinearLayout>
+    
+     
+
+   
+</LinearLayout>
